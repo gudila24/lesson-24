@@ -2,20 +2,22 @@
     display: flex;
     flex-direction: row;
 }
+    .logo-box {
+        padding:18px;
+    }
         .logo {
             width: 131px;
-            height: 72px;
         }
     .lang-box {
         display: flex;
         flex-direction: column;
-        padding: 11px;
+        padding: 18px;
         border-right:1px solid #E2E2E2;
         border-left: 1px solid #E2E2E2;
     }
         .lang-btn {
             color:black;
-            font-family:Montserrat;
+            font-family: Montserrat sans-serif;
             font-style: normal;
             font-weight: normal;
         }
@@ -23,41 +25,38 @@
             background-color: #4AD295;
             color:white;
             border-radius: 2px;
-            font-family:Montserrat;
             font-style: normal;
             font-weight: bold;
         }
     .rates-box {
         display: flex;
         flex-direction: column;
-        padding: 11px;
+        padding: 18px;
         border-right:1px solid #E2E2E2;
+        font-family: Montserrat sans-serif;
+        color:black;
     }
-        .courses-usd, .courses-eur {
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: normal;
-            color:black;
-        }
+    .courses-usd, .courses-eur {
+        color:black;
+    }
     .social-btn-box {
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 11px;
+        padding: 18px;
         border-right:1px solid #E2E2E2;
     }
     .tel-box {
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 11px;
+        padding: 18px;
         border-right:1px solid #E2E2E2;
     }
         .tel-number-box {
             display: flex;
             flex-direction: column;
-            font-family: Montserrat;
-            font-style: normal;
+            font-family: Montserrat sans-serif;
             font-weight: bold;
             text-align: center;
         }
@@ -69,35 +68,45 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        padding-left: 18px;
     }
         .uk-button-default-first {
             padding: 0px;
+            width: 225px;
+            padding-left: 21px;
             margin-left: 11px;
             margin-right:10px;
             background: #EFF3F6;
             border-radius: 2px;
-            font-family: Montserrat;
-            font-style: normal;
+            font-family: Montserrat sans-serif;
             font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            
         }
         .uk-button-default-second {
             padding: 0px;
+            padding-left: 33px;
+            width: 225px;
             margin-left: 10px;
             margin-right: 11px;
             background: #EFF3F6;
             border-radius: 2px;
-            font-family: Montserrat;
-            font-style: normal;
+            font-family: Montserrat sans-serif;
             font-weight: 600;
+            display: flex;
+            justify-content: space-between;
         }
-            .uk-icon-button-calendar {
-                background-color: #DD4053;
-                color: white;
-            }
-            .uk-icon-button-search {
-                background-color: #4AD295;
-                color:white;
-            }
+        .red-background {
+            background-color: #DD4053;
+            color: white;
+            width: 55px;
+        }
+        .green-background {
+            background-color: #4AD295;
+            color:white;
+            width: 55px;
+        }
 .header-main-nav {
     border-top: 1px solid #D0D0D0;
 
@@ -129,3 +138,87 @@
             .section-info .info-col-second .uk-list{
                 
             }
+.footer-main-under-section {
+    background-image:url(https://i.pinimg.com/originals/00/1d/f4/001df465267b254a5045a230e4692837.jpg);
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    .footer-col {
+        display: flex;
+        flex-direction: row;
+    }
+        .footer-logo-box {
+            margin-left: 90px;
+        }
+        .col-first, .col-second, .col-third, .col-fourth {
+            display: flex;
+            flex-direction: column;
+            font-family: Montserrat sans-serif;
+            margin-left: 90px;
+        }
+        .col-first a, .col-second a, .col-third a, .col-third p,.col-fourth a {
+            color: #3E3E3E; 
+        }
+            .col-third p {
+                margin-top: 0px;
+            }
+            .col-third h5 {
+                color: #3E3E3E;
+                opacity: 0.5;
+                text-transform: uppercase;
+                font-family: Montserrat sans-serif; 
+            }
+            .number-col-fourth {
+                display: flex;
+                flex-direction: column;
+                color: #3E3E3E; 
+                font-family: Montserrat sans-serif;
+            }
+            .col-fourth p {
+                margin-top: 0px;
+                color: #3E3E3E; 
+            }
+.footer-main-top-section {
+    background-image: url();
+}
+            .text-main-top-section {
+                display: flex;
+                flex-direction: row;
+                font-family: Montserrat sans-serif;
+                font-weight: 500;
+            }
+            .title-footer-main-top-section h2, .sentence a {
+                color: #232323;
+            }
+        .application, .who-you {
+            display: flex;
+            flex-direction: row;
+            margin-top: 0px;
+        }
+        .who-you {
+            margin-left: 59px;
+        }
+            .tourist {
+                margin-right: 40px;
+            }
+                .tourist a {
+                    color:#969696;
+                }
+                .travel-agent a {
+                    color:#969696;
+                }
+            .travel-agent {
+                margin-right: 40px;
+            }
+    .under-footer-main-under-section {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid rgba(29, 29, 29, 0.2);
+        height: 40px;
+        font-family: Montserrat sans-serif;
+    }
+    .under-footer-main-under-section a {
+        color: rgba(62, 62, 62, 0.5);
+    }

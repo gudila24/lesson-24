@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/uikit.min.css" />
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>
@@ -49,8 +52,18 @@
                         </div>
                     </div>
                     <div class="btn-box">
-                        <button class="uk-button uk-button-default-first">Maistra ONLINE <a href="" class="uk-icon-button-calendar" uk-icon="calendar"></a></button>
-                        <button class="uk-button uk-button-default-second">ТУРЫ ONLINE <a href="" class="uk-icon-button-search" uk-icon="search"></a></button>
+                        <button class="uk-button uk-button-default-first">
+                            Maistra ONLINE 
+                            <div class="red-background">
+                                <a href="" class="uk-icon-button-calendar" uk-icon="calendar"></a>
+                            </div>
+                        </button>
+                        <button class="uk-button uk-button-default-second">
+                            ТУРЫ ONLINE 
+                            <div class="green-background">
+                                <a href="" class="uk-icon-button-search" uk-icon="search"></a>
+                            </div>
+                        </button>
                     </div>
                 </div>
                 <div class="header-main-nav">
@@ -111,7 +124,73 @@
         </div>
         <footer class="footer-main">
             <div class="uk-container">
-                footer
+                <div class="footer-main-top-section">
+                    <div class="text-main-top-section">
+                        <div class="title-footer-main-top-section">
+                            <h2>ПУТЕШЕСТВУЙ С Valanta Travel Company!</h2>
+                        </div>
+                        <div class="sentence">
+                            <a href="#">ПОДПИСЫВАЙТЕСЬ НА НАШУ РАССЫЛКУ, ЧТОБЫ ПОЛУЧАТЬ САМЫЕ ГОРЯЧИЕ ПРЕДЛОЖЕНИЯ</a>
+                        </div>
+                    </div>
+                    <div class="application">
+                        <form class="uk-search uk-search-default">
+                            <input class="uk-search-input" type="email" placeholder="email">
+                        </form>
+                        <div class="who-you">
+                            <div class="tourist">
+                                <input type="checkbox">
+                                <a href="#">Я турист</a>
+                            </div>
+                            <div class="travel-agent">
+                                <input type="checkbox">
+                                <a href="#">Я турагент</a>
+                            </div>
+                            <div class="send">
+                                <button class="uk-button uk-button-danger">Отправить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-main-under-section">
+                    <div class="footer-col">
+                        <div class="footer-logo-box">
+                            <img src="img/logo 1.png" class="footer-logo">
+                        </div>
+                        <div class="col-first">
+                            <a href="#">Отели</a>
+                            <a href="#">Страны</a>
+                            <a href="#">Maistra Online</a>
+                            <a href="#">Туры Онлайн</a>
+                        </div>
+                        <div class="col-second">
+                            <a href="#">Агентам</a>
+                            <a href="#">О нас</a>
+                            <a href="#">Блог</a>
+                        </div>
+                        <div class="col-third">
+                            <h5>Режим работы</h5>
+                            <p>Пн-Пт 10:00-19:00</p>
+                        </div>
+                        <div class="col-fourth">
+                            <div class="number-col-fourth">
+                                <span>+80934455789</span>
+                                <span>+80934455789</span>
+                            </div>
+                            <p>Все контакты</p>
+                        </div>
+                    </div>
+                    <div class="under-footer-main-under-section">
+                        <div class="company">
+                            <a href="#">2002-2021 Туроператор Valanta Travel Company</a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="" class="uk-icon-button" uk-icon="facebook"></a>
+                            <a href="" class="uk-icon-button" uk-icon="instagram"></a>
+                            <a href="" class="uk-icon-button" uk-icon="youtube"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </footer>
     </main>
