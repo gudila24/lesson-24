@@ -2,223 +2,324 @@
     display: flex;
     flex-direction: row;
 }
-    .logo-box {
-        padding:18px;
-    }
-        .logo {
-            width: 131px;
-        }
-    .lang-box {
-        display: flex;
-        flex-direction: column;
-        padding: 18px;
-        border-right:1px solid #E2E2E2;
-        border-left: 1px solid #E2E2E2;
-    }
-        .lang-btn {
-            color:black;
-            font-family: Montserrat sans-serif;
-            font-style: normal;
-            font-weight: normal;
-        }
-        .active {
-            background-color: #4AD295;
-            color:white;
-            border-radius: 2px;
-            font-style: normal;
-            font-weight: bold;
-        }
-    .rates-box {
-        display: flex;
-        flex-direction: column;
-        padding: 18px;
-        border-right:1px solid #E2E2E2;
-        font-family: Montserrat sans-serif;
-        color:black;
-    }
-    .courses-usd, .courses-eur {
-        color:black;
-    }
-    .social-btn-box {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 18px;
-        border-right:1px solid #E2E2E2;
-    }
-    .tel-box {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 18px;
-        border-right:1px solid #E2E2E2;
-    }
-        .tel-number-box {
-            display: flex;
-            flex-direction: column;
-            font-family: Montserrat sans-serif;
-            font-weight: bold;
-            text-align: center;
-        }
-        .tel-icon {
-            display: flex;
-            align-items: center;
-        }
-    .btn-box {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding-left: 18px;
-    }
-        .uk-button-default-first {
-            padding: 0px;
-            width: 225px;
-            padding-left: 21px;
-            margin-left: 11px;
-            margin-right:10px;
-            background: #EFF3F6;
-            border-radius: 2px;
-            font-family: Montserrat sans-serif;
-            font-weight: 600;
-            display: flex;
-            justify-content: space-between;
+.logo-box {
+    padding:18px;
+}
+.logo {
+    width: 131px;
+}
+.lang-box {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    border-right:1px solid #E2E2E2;
+    border-left: 1px solid #E2E2E2;
+}
+.lang-btn {
+    color:black;
+    font-family: Montserrat sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.active {
+    background-color: #4AD295;
+    color:white;
+    border-radius: 2px;
+    font-style: normal;
+    font-weight: bold;
+}
+.rates-box {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    border-right:1px solid #E2E2E2;
+    font-family: Montserrat sans-serif;
+    color:black;
+}
+.courses-usd, .courses-eur {
+    color:black;
+}
+.social-btn-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px;
+    border-right:1px solid #E2E2E2;
+}
+.tel-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px;
+    border-right:1px solid #E2E2E2;
+}
+.tel-number-box {
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.tel-icon {
+    display: flex;
+    align-items: center;
+}
+.btn-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 18px;
+}
+.uk-button-default-first {
+    padding: 0px;
+    width: 225px;
+    padding-left: 21px;
+    margin-left: 11px;
+    margin-right:10px;
+    background: #EFF3F6;
+    border-radius: 2px;
+    font-family: Montserrat sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
             
-        }
-        .uk-button-default-second {
-            padding: 0px;
-            padding-left: 33px;
-            width: 225px;
-            margin-left: 10px;
-            margin-right: 11px;
-            background: #EFF3F6;
-            border-radius: 2px;
-            font-family: Montserrat sans-serif;
-            font-weight: 600;
-            display: flex;
-            justify-content: space-between;
-        }
-        .red-background {
-            background-color: #DD4053;
-            color: white;
-            width: 55px;
-        }
-        .green-background {
-            background-color: #4AD295;
-            color:white;
-            width: 55px;
-        }
+}
+.uk-button-default-second {
+    padding: 0px;
+    padding-left: 33px;
+    width: 225px;
+    margin-left: 10px;
+    margin-right: 11px;
+    background: #EFF3F6;
+    border-radius: 2px;
+    font-family: Montserrat sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+.red-background {
+    background-color: #DD4053;
+    color: white;
+    width: 55px;
+}
+.green-background {
+    background-color: #4AD295;
+    color:white;
+    width: 55px;
+}
 .header-main-nav {
     border-top: 1px solid #D0D0D0;
 
 }
-    .header-main-nav .uk-nav  {
-        display: flex;
-        margin: 0 -8px;
-    }
-    .header-main-nav .uk-nav li {
-        margin: 0 8px;
-    }
-
-    .section-info{
-        
-    }
-        .section-info .info-col-first{
-            
-        }
-            .section-info .info-col-first .heading{
-                
-            }
-            .section-info .info-col-first .heading{
-                
-            }
-
-        .section-info .info-col-second{
-            
-        }
-            .section-info .info-col-second .uk-list{
-                
-            }
+.uk-light {
+    height: 490px;
+}
+.slider-image {
+    height: 490px;
+}
+.uk-button-default {
+    width: 205px;
+    height: 32px;
+    left: 222px;
+    top: 133px; 
+    font-family: Open Sans;
+    font-weight: 600;
+    line-height: 32px;  
+}
+.uk-light h1 {
+    width: 725px;
+    height: 102px;
+    left: 195px;
+    top: 185px;
+    font-family: Montserrat sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px
+}
+.uk-light .uk-button-large {
+    width: 270px;
+    height: 60px;
+    left: 200px;
+    top: 330px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 2px;
+    font-family: Montserrat sans-serif;
+}
+.header-main-nav .uk-nav  {
+    display: flex;
+    margin: 0 -8px;
+}
+.header-main-nav .uk-nav li {
+    margin: 0 8px;
+}
 .footer-main-under-section {
-    background-image:url(https://i.pinimg.com/originals/00/1d/f4/001df465267b254a5045a230e4692837.jpg);
-    height: 370px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-    .footer-col {
-        display: flex;
-        flex-direction: row;
-    }
-        .footer-logo-box {
-            margin-left: 90px;
-        }
-        .col-first, .col-second, .col-third, .col-fourth {
-            display: flex;
-            flex-direction: column;
-            font-family: Montserrat sans-serif;
-            margin-left: 90px;
-        }
-        .col-first a, .col-second a, .col-third a, .col-third p,.col-fourth a {
-            color: #3E3E3E; 
-        }
-            .col-third p {
-                margin-top: 0px;
-            }
-            .col-third h5 {
-                color: #3E3E3E;
-                opacity: 0.5;
-                text-transform: uppercase;
-                font-family: Montserrat sans-serif; 
-            }
-            .number-col-fourth {
-                display: flex;
-                flex-direction: column;
-                color: #3E3E3E; 
-                font-family: Montserrat sans-serif;
-            }
-            .col-fourth p {
-                margin-top: 0px;
-                color: #3E3E3E; 
-            }
+.footer-main{
+    background:url(../img/footer-bg.png) center;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+}
+.footer-col {
+    display: flex;
+    flex-direction: row;
+}
+.footer-logo-box {
+    margin-left: 90px;
+}
+.col-first, .col-second, .col-third, .col-fourth {
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat sans-serif;
+    margin-left: 90px;
+}
+.col-first a, .col-second a, .col-third a, .col-third p,.col-fourth a {
+    color: #3E3E3E; 
+}
+.col-third p {
+    margin-top: 0px;
+}
+.col-third h5 {
+    color: #3E3E3E;
+    opacity: 0.5;
+    text-transform: uppercase;
+    font-family: Montserrat sans-serif; 
+}
+.number-col-fourth {
+    display: flex;
+    flex-direction: column;
+    color: #3E3E3E; 
+    font-family: Montserrat sans-serif;
+}
+.col-fourth p {
+    margin-top: 0px;
+    color: #3E3E3E; 
+}
 .footer-main-top-section {
     background-image: url();
 }
-            .text-main-top-section {
-                display: flex;
-                flex-direction: row;
-                font-family: Montserrat sans-serif;
-                font-weight: 500;
-            }
-            .title-footer-main-top-section h2, .sentence a {
-                color: #232323;
-            }
-        .application, .who-you {
+.text-main-top-section {
+    display: flex;
+    flex-direction: row;
+    font-family: Montserrat sans-serif;
+    font-weight: 500;
+}
+.title-footer-main-top-section h2, .sentence a {
+    color: #232323;
+}
+.application, .who-you {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+.who-you {
+    margin-left: 59px;
+    }
+.tourist {
+    margin-right: 40px;
+}
+.tourist a {
+    color:#969696;
+}
+.travel-agent a {
+    color:#969696;
+}
+.travel-agent {
+    margin-right: 40px;
+}
+
+/**/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.color-gray {
+    color:rgba(0, 0, 0, 0.5);
+}
+.font-small-gray {
+    font-size: 12px;
+    color:rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+.uk-icon-button{
+    background: unset;
+}
+.uk-icon-button:hover,
+.uk-icon-button:active {
+    background: unset;
+}
+
+.footer-main {
+    background:url(../img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    background-position:bottom center;
+    font-size: 15px;
+    line-height: 19px;
+    padding-top: 130px;
+}
+    .footer-main h5 {
+        margin-bottom: 8px;
+    }
+    .footer-section {
+        display: flex;
+    }
+        .footer-logo {
+            min-width: 150px;
+        }
+        .footer-nav-section {
             display: flex;
-            flex-direction: row;
-            margin-top: 0px;
+            justify-content:space-around;
+            width: 100%;
+            padding-left: 150px;
+            padding-bottom: 40px;
         }
-        .who-you {
-            margin-left: 59px;
-        }
-            .tourist {
-                margin-right: 40px;
+            .footer-nav-section .footer-tel {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
             }
-                .tourist a {
-                    color:#969696;
+                .footer-tel .footer-tel-container span {
+                    margin-bottom: 5px; 
                 }
-                .travel-agent a {
-                    color:#969696;
-                }
-            .travel-agent {
-                margin-right: 40px;
+            .footer-nav-section div {
+                display: flex;
+                flex-direction: column;
             }
-    .under-footer-main-under-section {
+            .footer-nav-section a {
+                color:#3E3E3E;
+                margin-bottom: 5px;
+            }
+            .footer-nav-section a:hover {
+                text-decoration: none;
+                opacity: 0.8;
+            }
+            .footer-nav-section p {
+                padding: 0;
+                margin: 0;
+            }
+            
+
+
+    .footer-section{
+
+    }
+
+    .footer-section.bottom {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         border-top: 1px solid rgba(29, 29, 29, 0.2);
-        height: 40px;
         font-family: Montserrat sans-serif;
+        padding-bottom: 64px;
     }
-    .under-footer-main-under-section a {
-        color: rgba(62, 62, 62, 0.5);
-    }
+        .footer-section.bottom a {
+            color: rgba(62, 62, 62, 0.5);
+        }
+        .footer-section.bottom .social-icon a {
+            color:rgba(0, 0, 0, 0.5);
+        }
+      
+      
