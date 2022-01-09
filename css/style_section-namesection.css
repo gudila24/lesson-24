@@ -1,0 +1,35 @@
+.header-main-top-section {
+    display: flex;
+    flex-direction: row;
+}
+.logo {
+    width: 131px;
+    height: 72px;
+}
+.header-main-nav .uk-nav  {
+    display: flex;
+    margin: 0 -8px;
+ }
+ .header-main-nav .uk-nav li {
+    margin: 0 8px;
+ }
+
+ .section-info{
+     
+ }
+    .section-info .info-col-first{
+        
+    }
+        .section-info .info-col-first .heading{
+            
+        }
+        .section-info .info-col-first .heading{
+            
+        }
+
+    .section-info .info-col-second{
+        
+    }
+        .section-info .info-col-second .uk-list{
+            
+        }

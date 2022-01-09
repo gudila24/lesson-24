@@ -5,16 +5,253 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First project</title>
-    <link rel="stylesheet" href="css/uikit.min.css" />
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <main>
+    <main class="container-main">
+        <header class="header-main">
+            <div class="uk-container">
+                
+                <div class="header-main-top-section">
+                    <div class="logo-box">
+                        <img src="img/logo.png" class="logo">
+                    </div>
+                    <div class="lang-box">
+                        <a href="page2.html" class="lang-btn">
+                           UA
+                        </a>
+                        <a href="#" class="lang-btn active">
+                          Ru  
+                        </a>
+                    </div>
+                    <div class="rates-box">
+                        <a href="#" class="courses-usd">USD 28,90</a>
+                        <a href="#" class="courses-eur">EUR 35,00</a>
+                    </div>
+                    <div class="social-btn-box">
+                        <a href="" class="uk-icon-button" uk-icon="facebook"></a>
+                        <a href="" class="uk-icon-button" uk-icon="instagram"></a>
+                        <a href="" class="uk-icon-button" uk-icon="youtube"></a>
+                    </div>
+                    <div class="tel-box">
+                        <div class="tel-number-box">
+                            <span>+80934455789</span>
+                            <span>+80934455789</span>
+                        </div>
+                        <div class="tel-icon">
+                            <a href="" class="uk-icon-button" uk-icon="phone"></a>
+                        </div>
+                    </div>
+                    <div class="btn-box">
+                        <button class="uk-button uk-button-default-first">
+                            Maistra ONLINE 
+                            <div class="red-background">
+                                <a href="" class="uk-icon-button-calendar" uk-icon="calendar"></a>
+                            </div>
+                        </button>
+                        <button class="uk-button uk-button-default-second">
+                            ТУРЫ ONLINE 
+                            <div class="green-background">
+                                <a href="" class="uk-icon-button-search" uk-icon="search"></a>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="header-main-nav">
+                    <ul class="uk-nav uk-nav-default">
+                        <li><a href="" class="uk-icon-button" uk-icon="search"></a></li>
+                        <li class="uk-active"><a href="#">Отели</a></li>
+                        <li><a href="#">Страны</a></li>
+                        <li><a href="#">Авиа</a></li>
+                        <li><a href="#">Каталог туров</a></li>
+                        <li><a href="#">Агентам</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section class="uk-section uk-padding-small section-info">
+            <div class="uk-container">
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
+                    
+                    <ul class="uk-slider-items uk-grid">
+                        <li class="uk-width-3-4">
+                            <div class="uk-panel">
+                                <img src="img/hotel-3.jpg" alt="" class="slider-image">
+                                <div class="uk-position-center uk-panel"></div>
+                            </div>
+                        </li>
+                        <li class="uk-width-3-4">
+                            <div class="uk-panel">
+                                <img src="img/vot-eto.jpg" alt="" class="slider-image">
+                                <div class="uk-position-center uk-panel"></div>
+                            </div>
+                        </li>
+                        <li class="uk-width-3-4">
+                            <div class="uk-panel">
+                                <img src="img/hotel-2.jpg" alt="" class="slider-image">
+                                <div class="uk-position-center uk-panel"></div>
+                            </div>
+                        </li>
+                        <li class="uk-width-3-4">
+                            <div class="uk-panel">
+                                <img src="img/Hotel.jpg" alt="" class="slider-image">
+                                <div class="uk-position-center uk-panel"></div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <button class="uk-button uk-button-default">От 300 € за сутки</button>
+                    <h1>новый эко-отель mastila на о. хвар в Хорватии</h1>
+                    <button class="uk-button uk-button-primary uk-button-large">Подробнее</button>
+                
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+        
+                </div>
+                <div class="tour-operator">
+                    <div class="first-col-tour-operator">
+                        <h2>ВАШ ТУРОПЕРАТОР ВЫСОКОГО УРОВНЯ ОБСЛУЖИВАНИЯ.</h2>
+                        <p> Откройте мир путешествий заново.</p>
+                        <button class="uk-button uk-button-primary uk-button-small">Что мы предлагаем?</button>
+                        <button class="uk-button uk-button-default uk-button-small">Консультация</button>
+                    </div>
+                    <div class="second-col-tour-operator">
+                        <div class="row">
+                            <a href="" class="uk-icon-button" uk-icon="heart"></a>
+                            <p>ИНДИВИДУАЛЬНЫЙ ПОДХОД</p>
+                        </div>
+                        <div class="row">
+                            <a href="" class="uk-icon-button" uk-icon="dribbble"></a>
+                            <p>КОНСЬЕРЖ-СЕРВИС</p>
+                        </div>
+                        <div class="row">
+                            <a href="" class="uk-icon-button" uk-icon="star"></a>
+                            <p>ОТДЫХ ПРЕМИУМ-КЛАССА</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="uk-section uk-padding-small">
+            <div class="uk-container">
+                <div class="uk-column-1-4">
+                    <div class="test Cc">test2</div>
+                    <div class="test Cc">test3</div>
+                </div>
+                
+                <div class="uk-column-1-2">
+                    <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m">
+                        <h3 class="uk-card-title">Default</h3>
+                        <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m">
+                        <h3 class="uk-card-title">Default</h3>
+                        <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="test Cc">test3</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Test Container Cc">
+            <div class="footer-main-top-section">
+                <div class="text-main-top-section">
+                    <div class="title-footer-main-top-section">
+                        <h2>ПУТЕШЕСТВУЙ С Valanta Travel Company!</h2>
+                    </div>
+                    <div class="sentence">
+                        <a href="#">ПОДПИСЫВАЙТЕСЬ НА НАШУ РАССЫЛКУ, ЧТОБЫ ПОЛУЧАТЬ САМЫЕ ГОРЯЧИЕ ПРЕДЛОЖЕНИЯ</a>
+                    </div>
+                </div>
+                <div class="application">
+                    <form class="uk-search uk-search-default">
+                        <input class="uk-search-input" type="email" placeholder="email">
+                    </form>
+                    <div class="who-you">
+                        <div class="tourist">
+                            <input type="checkbox">
+                            <a href="#">Я турист</a>
+                        </div>
+                        <div class="travel-agent">
+                            <input type="checkbox">
+                            <a href="#">Я турагент</a>
+                        </div>
+                        <div class="send">
+                            <button class="uk-button uk-button-danger">Отправить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer-main">
+            <div class="uk-container">
+                <div class="footer-section">
+                    <div class="footer-main-logo">
+                        <img src="img/logo.png" class="footer-logo">
+                    </div>
+                    <div class="footer-nav-section">
+                        <div class="footer-nav">
+                            <a href="#">Отели</a>
+                            <a href="#">Страны</a>
+                            <a href="#">Maistra Online</a>
+                            <a href="#">Туры Онлайн</a>
+                        </div>
+                        <div class="footer-nav-about">
+                            <a href="#">Агентам</a>
+                            <a href="#">О нас</a>
+                            <a href="#">Блог</a>
+                        </div>
+                        <div class="footer-working-hours">
+                            <h5 class="font-small-gray">Режим работы</h5>
+                            <p>Пн-Пт 10:00-19:00</p>
+                        </div>
+                        <div class="footer-tel">
+                            <div class="footer-tel-container">
+                                <span>+80934455789</span>
+                                <span>+80934455789</span>
+                            </div>
+                            <p class="font-small-gray">Все контакты</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="footer-section bottom">
+                    <div class="company">
+                        <a href="#">2002-2021 Туроператор Valanta Travel Company</a>
+                    </div>
+                    <div class="social-icon">
+                        <a href="" class="uk-icon-button" uk-icon="facebook"></a>
+                        <a href="" class="uk-icon-button" uk-icon="instagram"></a>
+                        <a href="" class="uk-icon-button" uk-icon="youtube"></a>
+                    </div>
+                </div>
+
+                <div class="footer-main-content">
+              
+                
+                </div>
+            </div>
+        </footer>
     </main>
 </body>
 </html>
