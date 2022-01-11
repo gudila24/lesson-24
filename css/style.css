@@ -1,6 +1,8 @@
 .header-main-top-section {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .logo-box {
     padding:18px;
@@ -11,30 +13,35 @@
 .lang-box {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 18px;
     border-right:1px solid #E2E2E2;
     border-left: 1px solid #E2E2E2;
+    height: 20px;
 }
 .lang-btn {
     color:black;
     font-family: Montserrat sans-serif;
-    font-style: normal;
-    font-weight: normal;
 }
 .active {
     background-color: #4AD295;
     color:white;
     border-radius: 2px;
-    font-style: normal;
     font-weight: bold;
+    width: 35px;
+    text-align: center;
 }
 .rates-box {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 18px;
     border-right:1px solid #E2E2E2;
     font-family: Montserrat sans-serif;
     color:black;
+    height: 20px;
 }
 .courses-usd, .courses-eur {
     color:black;
@@ -42,16 +49,20 @@
 .social-btn-box {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     padding: 18px;
     border-right:1px solid #E2E2E2;
+    height: 20px;
 }
 .tel-box {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     padding: 18px;
     border-right:1px solid #E2E2E2;
+    height: 20px;
 }
 .tel-number-box {
     display: flex;
@@ -67,12 +78,14 @@
 .btn-box {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     padding-left: 18px;
 }
 .uk-button-default-first {
     padding: 0px;
     width: 225px;
+    height: 55px;
     padding-left: 21px;
     margin-left: 11px;
     margin-right:10px;
@@ -82,12 +95,14 @@
     font-weight: 600;
     display: flex;
     justify-content: space-between;
+    align-items: center;
             
 }
 .uk-button-default-second {
     padding: 0px;
     padding-left: 33px;
     width: 225px;
+    height: 55px;
     margin-left: 10px;
     margin-right: 11px;
     background: #EFF3F6;
@@ -96,26 +111,63 @@
     font-weight: 600;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .red-background {
     background-color: #DD4053;
     color: white;
     width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .green-background {
     background-color: #4AD295;
     color:white;
     width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .header-main-nav {
     border-top: 1px solid #D0D0D0;
 
 }
 .uk-light {
-    height: 490px;
+    height: 530px;
 }
 .slider-image {
-    height: 490px;
+    height: 530px;
+    width: 1280px;
+}
+.tour-operator {
+    display: flex;
+    justify-content: space-around;
+}
+.first-col-tour-operator {
+    display: flex;
+    flex-direction: column;
+    width: 624px;
+}
+.uk-button-primary {
+    background: #BDBDBD;
+    border-radius: 2px;
+    height: 50px;
+}
+.button-default-small {
+    height: 50px;
+    background-color: white;
+    border: 1px solid #969696;
+}
+.second-col-tour-operator {
+    display: flex;
+    flex-direction: column;
+}
+.row-second-col-tour-operator {
+    display: flex;
+    flex-direction: row;
 }
 .uk-button-default {
     width: 205px;
