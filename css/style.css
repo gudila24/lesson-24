@@ -151,6 +151,82 @@
     flex-direction: column;
     width: 624px;
 }
+    .first-col-tour-operator h2 {
+        margin-bottom: 0px;
+    }
+.second-col-tour-operator {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.best-hotels {
+    font-family: Montserrat sans-serif; 
+}
+.title-best-hotels {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.arrows {
+    margin-left:50px;
+    margin-right: 270px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.horizontal-stick {
+    height: 1px;
+    width: 237px;
+    background-color: #C4C4C4;
+    margin-right:30px;
+    text-align: center;
+}
+.uk-panel {
+    display: flex;
+    justify-content: space-around;
+}
+.uk-hidden-hover {
+    background-color: #232323;
+}
+.img-best-hotels {
+    width: 300px;
+    height: 300px;
+}
+
+.title-actual-tours {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.title-info-actual-tours {
+    font-family: Montserrat sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.info-actual-tours h3 {
+    color: #323232;
+}
+.title-text-info-actual-tours {
+    margin:0px;
+    margin-left: 130px;
+}
+.info-texts-actual-tours {
+    font-family: Open Sans;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.info-text-actual-tours {
+    color: #848484;
+    margin:0px;
+    margin-left: 15px;
+}
+
 .uk-button-primary {
     background: #BDBDBD;
     border-radius: 2px;
@@ -160,10 +236,6 @@
     height: 50px;
     background-color: white;
     border: 1px solid #969696;
-}
-.second-col-tour-operator {
-    display: flex;
-    flex-direction: column;
 }
 .row-second-col-tour-operator {
     display: flex;
